@@ -1,0 +1,60 @@
+.windows{
+    position:absolute;
+    left: 560px;
+    top: 100px;
+} 
+#r-y{
+   display: flex;
+}
+#red{
+   height: 200px;
+   width: 200px;
+   background-color: red;
+   transition-duration: 2s;
+   transform-origin: top left;
+}
+.windows:hover #red{
+   transform: rotate(-90deg);
+}
+#yellow{
+   height: 200px;
+   width: 200px;
+   background-color:yellow;
+   transition-duration: 2s;
+   transform-origin: top right;
+}
+.windows:hover #yellow{
+   transform: rotate(-90deg);
+}
+
+#b-g{
+   display: flex;
+}
+#blue{
+   height: 200px;
+   width: 200px;
+   background-color: blue;
+   transition-duration: 2s;
+   transform-origin: bottom left;
+}
+.windows:hover #blue{
+   transform: rotate(90deg);
+}
+
+#green{
+   height: 200px;
+   width: 200px;
+   background-color: green;
+   transition-duration: 2s;
+   transform-origin: bottom right;
+}
+.windows:hover #green{
+   transform: rotate(90deg);
+}
+p{
+   text-align: center;
+   margin-top: 200px;
+   font-size: xx-large; 
+
+}
+  
