@@ -22,7 +22,7 @@ nav ul li a:hover {
 }
 nav ul img{
     width: 15px;
-    height: 10px;
+    height: 15px;
 }
  main {
     display: flex;
@@ -75,4 +75,5 @@ section .option ul li {
     color: #FFF;
     text-decoration: none;
 }
+
  
