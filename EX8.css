@@ -14,7 +14,7 @@
    transform-origin: top left;
 }
 .windows:hover #red{
-   transform: rotate(-90deg);
+   transform: rotate(90deg);
 }
 #yellow{
    height: 200px;
@@ -26,7 +26,6 @@
 .windows:hover #yellow{
    transform: rotate(-90deg);
 }
-
 #b-g{
    display: flex;
 }
@@ -40,21 +39,20 @@
 .windows:hover #blue{
    transform: rotate(90deg);
 }
-
 #green{
    height: 200px;
    width: 200px;
    background-color: green;
    transition-duration: 2s;
-   transform-origin: bottom right;
+   transform-origin: bottom left;
 }
 .windows:hover #green{
-   transform: rotate(90deg);
+   transform: rotate(-90deg);
 }
 p{
    text-align: center;
-   margin-top: 200px;
-   font-size: xx-large; 
-
+   margin-top: 300px;
+   left: 30px;
+   font-size: xx-large;
 }
   

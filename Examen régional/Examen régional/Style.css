@@ -1,0 +1,83 @@
+header h1 {
+    font-family: sans-serif;
+    color: blue;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: black;
+}
+
+nav ul li a {
+    color: rgb(221, 221, 221);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(104, 24, 231);
+    text-decoration: underline;
+    font-weight: bold;
+}
+nav ul img{
+    width: 10px;
+    height: 10px;
+}
+ main {
+    display: flex;
+}
+
+aside {
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+aside form div label {
+    display: inline-block;
+    width: 35%;
+} 
+ aside form div {
+    margin-bottom: 10px;
+}
+aside form ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+aside form ul li {
+    float: left;
+    margin-right: 5px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .option {
+    border: 1px black solid;
+    padding: 10px;
+    text-align: center;
+}
+
+section .option ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+section .option ul li {
+    margin-bottom: 10px;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    
+} 
+
+ section .option ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+ 
