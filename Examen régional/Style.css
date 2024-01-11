@@ -65,7 +65,6 @@ section .option ul {
     list-style: none;
     padding-left: 0;
 }
-
 section .option ul li {
     margin-bottom: 10px;
     background-color: black;
